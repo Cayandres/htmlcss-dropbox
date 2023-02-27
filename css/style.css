@@ -3,3 +3,95 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.prop-flex{
+  display: flex;
+}
+
+.border{
+  border: 1px solid #d0d0d3;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.container-big{
+  width: 80%;
+  height: 800px;
+  background-color: #b4d0e7;
+  
+}
+
+.container-small{
+  width: 60%;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+nav{
+  height: 60px;
+  background-color: aqua;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+header nav{ 
+  justify-content: space-between;
+  align-items: center;
+} 
+
+header nav ul li{
+  padding: 0 20px;
+  list-style: none;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.jumbotron{
+  margin-top: 60px;
+  background-color: blueviolet;
+}
+
+
+.jumbotron .container-big{
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .top{
+  margin-top: 100px;
+}
+
+main .three-column, 
+main .prop-flex{
+  justify-content: space-between;
+}
+
+main .three-column section,
+main .prop-flex .card{
+  width: calc(90%/3);
+}
+
+.all-widht-box{
+  height: 300px;
+  background-color: rosybrown;
+}
+
+.all-widht-box .immages{
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+}
+
+footer .container-small{
+justify-content: space-between;
+}
