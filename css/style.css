@@ -20,6 +20,10 @@ h2{
   margin: 30px 0 25px 0;
 }
 
+.margin-top{
+  margin-top: 15px;
+}
+
 
 .border{
   border: 1px solid #d0d0d3;
@@ -52,7 +56,7 @@ img{
   
 
 .container-small{
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -102,6 +106,7 @@ header nav ul li a{
 .jumbotron .button-blue{
   margin: 25px 0 15px 0;
 }
+
 .jumbotron i{
   margin: 25px 0 15px 0;
   font-size: 40px;
@@ -133,7 +138,7 @@ header nav ul li a{
   align-items: center;
   padding: 15px 0 15px 0;
   width: calc(90%/3);
-  border: 1px solid #b4d0e7;
+  border: 1px solid #d0d0d3;
   border-bottom: 0px;
 }
 
@@ -147,13 +152,13 @@ main .prop-flex{
   justify-content: space-between;
 }
 
-main .three-column section,
-main .prop-flex .card{
+main .three-column section{
   width: calc(90%/3);
+  padding: 0 30px; 
 }
 
-main section{
-  padding: 0 30px; 
+main section .border{
+ 
   height: 900px;
 }
 
@@ -175,17 +180,148 @@ main section .check li i{
   
 }
 
-.all-widht-box{
-  height: 300px;
-  background-color: rosybrown;
+.large-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border: 1px solid #d0d0d3;
+  border-bottom: 0px;
+  margin-top: 30px;
+}
+
+
+.due .border{
+  display: flex;
+  justify-content: space-around;
+}
+
+.due .border .button-blue{
+ margin-top: 16px;
+ margin-bottom: 60px;
+}
+  
+.container-small .enterprise{
+  padding: 10px;
+  line-height: 30px;
+}
+
+main .tre{
+  margin-top: 80px;
+
+}
+
+.box-left{
+  width: 60%;
+}
+
+.box-right{
+  width: 40%;
+  padding: 50px 0px 0px 50px;
+}
+
+.tre button{
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  color: black  ;
+  padding: 5px 20px 5px 20px;;
+
+}
+
+main .quattro{
+  margin-top: 100px;
+}
+
+.quattro p{
+  margin-top: 30px;
+}
+
+.quattro .card{
+  margin-top: 60px;
+  width: calc(85%/3);
+ }
+ 
+  .cinque {
+   padding-bottom: 40px;
+  }
+ 
+ .container-small.cinque h2{ 
+  width: 45%;
+  padding: 80px 0 40px 0 ;
+ }
+
+
+.all-widht-box.one{
+  height: 56vh;
+}
+
+.fixed-square{
+  overflow: auto;
+  height: 56vh;
+  width: 56vw;
+  padding: 40px;
+}
+
+.fixed-square img{
+  width: 100px;
+}
+
+.mini-square{
+  margin-top: 20px;
+  height: 1px;
+  background-color: #d0d0d3;
+  width: 53px;
+}
+
+.fixed-square p{
+  margin: 30px 0px;
 }
 
 .all-widht-box .immages{
-  width: 30%;
-  height: 100%;
-  background-color: blue;
+  width: 30vw;
+  height: 56vh;
 }
+
 
 footer .container-small{
 justify-content: space-between;
+}
+
+.immages .square {  
+  width: calc(100%/2);
+  height: calc(100%/2);
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  
+}
+
+.immages .square img{
+  width: 50%;
+  filter: invert(1);
+}
+
+.immages .one{
+background-color: #a2d39b;
+}
+.immages .two{
+background-color: #61082c;
+}
+.immages .three{
+background-color: #1d93ce;
+}
+.immages .four{
+background-color: #f91c1d;
+}
+.immages .five{
+background-color: #d5021f;
+}
+.immages .six{
+background-color: #b4d0e7;
+}
+.immages .seven{
+background-color: #0d2481;
+}
+.immages .eight{
+background-color: #fed830;
 }
