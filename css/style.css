@@ -8,6 +8,10 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+i{
+  padding-right: 5px;
+}
+
 h2{
   font-size: 35px;
 }
@@ -24,6 +28,9 @@ h2{
   margin-top: 15px;
 }
 
+.list-nn{
+  list-style: none;
+}
 
 .border{
   border: 1px solid #d0d0d3;
@@ -43,8 +50,8 @@ img{
 }
 
 .button-blue{
-  border-color: blue;
-  background-color: blue;
+  border: 1px solid #0061ff;
+  background-color: #0061ff;
   color: white;
   padding: 5px 20px 5px 20px;;
 }
@@ -70,6 +77,7 @@ header{
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 
 header nav{ 
@@ -93,7 +101,7 @@ header nav ul li a{
 
 .jumbotron{
   margin-top: 60px;
-  background-color: #d0d0d3;
+  background-color: #b4d0e7;
   min-height: 690px;
   max-height: 670px;
 }
@@ -324,4 +332,80 @@ background-color: #0d2481;
 }
 .immages .eight{
 background-color: #fed830;
+}
+
+.all-widht-box.two{
+  background-color: #b4d0e7;
+  height: 250px;
+}
+
+.container-small.sei{
+  align-items: center;
+  height: 100%;
+}
+
+.container-small.sei h2{
+  width: 40%;
+  color: #61082c;
+}
+
+.container-small.sei button{
+  padding: 10px 40px 10px 40px;
+
+  background-color: white;
+  border:1px solid white;
+}
+
+.container-small.sette{
+  margin-top: 80px;
+}
+.container-small.sette h3{
+  margin-bottom: 45px;
+}
+
+.container-small.sette div{
+  padding: 30px 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.container-small.sette i{
+  padding-right: 30px;
+}
+
+.container-small.sette p{
+  font-weight: 700;
+}
+
+footer{
+  background-color: black;
+  height: 450px;
+  margin-top: 90px;
+}
+
+.container-small.otto{
+  color: white;
+  width: 80%;
+}
+
+.container-small.otto ul{
+  padding: 80px 0;
+}
+
+.container-small.otto li{
+  margin-bottom: 10px;
+}
+
+.container-small.otto li a,
+.container-small.otto span a{
+text-decoration: none;
+color: white;
+}
+
+.container-small.otto span{
+ margin: 20px 0px;
+}
+.container-small.otto hr{
+  margin-bottom: 45px;
+  width: 120px;
 }
