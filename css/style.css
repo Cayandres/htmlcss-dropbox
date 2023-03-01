@@ -12,8 +12,16 @@ i{
   padding-right: 5px;
 }
 
+a{
+  color: #0061ff;
+}
+
 h2{
-  font-size: 35px;
+  font-size: 42px;
+}
+
+h3{
+  font-size: 25px;
 }
 
 .prop-flex{
@@ -36,6 +44,10 @@ h2{
   border: 1px solid #d0d0d3;
 }
 
+.bold{
+  font-weight: 700;
+}
+
 img{
   width: 100%;
 }
@@ -53,7 +65,7 @@ img{
   border: 1px solid #0061ff;
   background-color: #0061ff;
   color: white;
-  padding: 5px 20px 5px 20px;;
+  padding: 5px 20px 5px 20px;
 }
 
 .container-big{
@@ -70,6 +82,7 @@ img{
 nav{
   height: 60px;
   background-color: white;
+  border: 1px solid #d0d0d3;
 }
 
 header{
@@ -94,6 +107,14 @@ header nav ul li{
   list-style: none;
 }
 
+header nav ul li a:hover{
+  border: 2px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  padding-bottom: 19px;
+}
+
 header nav ul li a{
   text-decoration: none;
   color: black;
@@ -102,7 +123,6 @@ header nav ul li a{
 .jumbotron{
   margin-top: 60px;
   background-color: #b4d0e7;
-  min-height: 690px;
   max-height: 670px;
 }
 
@@ -112,7 +132,9 @@ header nav ul li a{
 }
 
 .jumbotron .button-blue{
-  margin: 25px 0 15px 0;
+  padding: 8px 50px 8px 50px;
+  margin: 30px 0 10px 0px;
+  font-size: 15px;
 }
 
 .jumbotron i{
@@ -152,12 +174,12 @@ header nav ul li a{
 
 
 main .top{
-  margin-top: 100px;
+  margin-top: 170px;
 }
 
-main .three-column, 
-main .prop-flex{
+main .three-column{
   justify-content: space-between;
+  height: 1000px;
 }
 
 main .three-column section{
@@ -165,27 +187,34 @@ main .three-column section{
   padding: 0 30px; 
 }
 
-main section .border{
- 
-  height: 900px;
-}
-
 main section ul{
   list-style: none;
 }
 
 main section ul li{
+  display: flex;
   padding: 10px 0;
   font-size: 15px;
+}
+
+main section .grey ul li:last-child{
+  color: #627381;
 }
 
 main section ul li i{
   padding-right: 3px;
 }
 
+main .button-blue{
+  padding: 8px 48px;
+}
+
+main hr{
+  width: 50px;
+}
+
 main section .check li i{
-  color: blue;
-  
+  color: #0061ff;  
 }
 
 .large-box{
@@ -232,7 +261,7 @@ main .tre{
   border: 1px solid black;
   background-color: rgb(255, 255, 255);
   color: black  ;
-  padding: 5px 20px 5px 20px;;
+  padding: 8px 20px;
 
 }
 
@@ -246,7 +275,7 @@ main .quattro{
 
 .quattro .card{
   margin-top: 60px;
-  width: calc(85%/3);
+  padding: 0px;
  }
  
   .cinque {
@@ -254,42 +283,35 @@ main .quattro{
   }
  
  .container-small.cinque h2{ 
-  width: 45%;
-  padding: 80px 0 40px 0 ;
+  width: 55%;
+  padding: 200px 0 40px 0 ;
  }
 
 
 .all-widht-box.one{
-  height: 56vh;
+  height: 60vh;
 }
 
 .fixed-square{
   overflow: auto;
-  height: 56vh;
-  width: 56vw;
+  height: 60vh;
+  width: 40%;
   padding: 40px;
 }
 
 .fixed-square img{
   width: 100px;
+  padding-bottom: 30px;
 }
 
-.mini-square{
-  margin-top: 20px;
-  height: 1px;
-  background-color: #d0d0d3;
-  width: 53px;
-}
 
 .fixed-square p{
   margin: 30px 0px;
 }
 
 .all-widht-box .immages{
-  width: 30vw;
-  height: 56vh;
+  width: 30%;
 }
-
 
 footer .container-small{
 justify-content: space-between;
@@ -300,8 +322,6 @@ justify-content: space-between;
   height: calc(100%/2);
   justify-content: center;
   align-items: center;
-  flex-grow: 2;
-  
 }
 
 .immages .square img{
@@ -336,21 +356,22 @@ background-color: #fed830;
 
 .all-widht-box.two{
   background-color: #b4d0e7;
-  height: 250px;
+  height: 300px;
 }
 
 .container-small.sei{
+  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
 .container-small.sei h2{
-  width: 40%;
+  width: 50%;
   color: #61082c;
 }
 
 .container-small.sei button{
-  padding: 10px 40px 10px 40px;
+  padding: 10px 60px 10px 60px;
 
   background-color: white;
   border:1px solid white;
@@ -364,6 +385,7 @@ background-color: #fed830;
 }
 
 .container-small.sette div{
+  justify-content: space-between;
   padding: 30px 0px;
   border-left: 0px;
   border-right: 0px;
